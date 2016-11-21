@@ -1,6 +1,6 @@
 {
   "name": "generator-omp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A generator for msbu omp vue page base on yeoman",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,7 @@
     "url": "git+https://github.com/msbu-fe/generator-omp.git"
   },
   "files": [
-    "generators/app",
-    "generators/view"
+    "generators"
   ],
   "keywords": [
     "yeoman-generator",
