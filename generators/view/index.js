@@ -1,5 +1,4 @@
 var generators = require('yeoman-generator');
-var assert = require('yeoman-assert');
 var yosay = require('yosay');
 var chalk = require('chalk');
 var package = require("../../package.json");
