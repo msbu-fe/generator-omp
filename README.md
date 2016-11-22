@@ -1,10 +1,12 @@
 # generator-omp
 
-A generator for msbu omp vue page base on yeoman.
+> A generator for msbu omp vue page base on yeoman.
 
-# Welcome to use MSBU omp generator.
+Welcome to use MSBU omp generator.
 
-## BASE
+[**ChangeLog**](https://github.com/msbu-fe/generator-omp/blob/master/CHANGELOG.md)
+
+## Feature
 
 - `yo omp`
     - This order can generate  a new page of omp include a **Page.vue** and **View.vue**.You need input your page name.
