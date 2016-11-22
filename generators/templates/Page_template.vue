@@ -1,5 +1,5 @@
 <template>
-  <div id="page1" class="page-wrap">
+  <div id="page-<%=pageName%>" class="page-wrap">
     <page-head></page-head>
     <div class="container">
       <Row type="flex">
@@ -7,8 +7,8 @@
           <page-aside></page-aside>
         </i-col>
         <i-col span="20" order="2">
-          <%=pageName%>
-          <View1></View1>
+          <h1><%=pageName%></h1>
+          <View></View>
         </i-col>
       </Row>
     </div>
@@ -21,7 +21,7 @@ import { Row, iCol } from 'iview';
 import PageHead from '../../layouts/PageHead';
 import PageAside from '../../layouts/PageAside';
 import PageFoot from '../../layouts/PageFoot';
-import View1 from './View1';
+import View from './View';
 
 export default {
   components: {
@@ -30,7 +30,7 @@ export default {
     PageHead,
     PageAside,
     PageFoot,
-    View1
+    View
   }
 }
 </script>

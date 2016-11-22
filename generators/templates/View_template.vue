@@ -5,7 +5,7 @@
 </template>
 
 <script>
-// import * from 'iview';
+import * from 'iview';
 
 export default {
   components: {
